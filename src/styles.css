@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+label {
+  font-family: 'Raleway', sans serif;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+input[type=text], input[type=date], textarea {
+  background-color: #FFFF00;
+  border: 1px solid #000;
+  width: 50%;
+  height: 30px;
+  display: block;
+  padding-left: 10px;
+  box-sizing: border-box;
+  margin: 5px 0px 15px 0px;
+}
+
+  input[type=text]:focus, textarea:focus {
+      background-color: red;
+      color: #FFF;
+  }
+
+textarea {
+  height: 90px;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: #000;
+  color: #FFF;
+  width: 50%;
+  height: 30px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  display: block;
+}
+
+  input[type=submit]:hover, input[type=reset]:hover {
+      background-color: #FFFF00;
+      color: #000;
+  }
